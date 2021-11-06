@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:100,200,300,400,500,700,900');
+
+@font-face {
+  font-family: "Barlow";
+  src: url('fonts/Barlow.ttf');
+}
+
+@font-face {
+  font-family: "The Bold Font";
+  src: url('fonts/theboldfont.ttf');
+}
+
+@font-face {
+  font-family: "Aelten";
+  src: url('fonts/Aelten.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #fff;
+  background: #e32a2a;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(227, 42, 42, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2d2d2d;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li, li {
+  display: inline;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-family: "The Bold Font", sans-serif;
+  transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+  color: #e32a2a;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-title {
+  font-family: "The Bold Font", sans-serif;
+  letter-spacing: -.13rem;
+  color: #ffffff;
+}
+
+.nav-title a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-title a:hover {
+  filter: brightness(70%);
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  letter-spacing: -.15rem;
+}
+
+.nav-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-contact-link {
+  letter-spacing: -.14rem;
+}
+
+.nav-title span {
+  color: #e32a2a;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-family: "The Bold Font", sans-serif;
+}
+
+.header-title h1 {
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: -.35rem;
+  word-spacing: 1rem;
+  color: white;
+}
+
+.header-title h1 .span-break {
+  display: block;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 12px;
+  letter-spacing: .02rem;
+}
+
+.header-title h1 .acecodes {
+  color: #e32a2a;
+}
+
+.header-title h1 .affiliate {
+  background: white;
+  padding: 0px 8px 0px 10px;
+  color: #e32a2a;
+}
+
+.header hr {
+  width: 50%;
+  margin-top: 24px;
+  margin-bottom: 54px;
+  border: none;
+  border-bottom: 2px solid #444;
+  box-shadow: 0px 0px 10px 6px #333;
+}
+
+.section-title {
+  display: block;
+  text-align: center;
+  font-family: "The Bold Font", sans-serif;
+  font-size: 60px;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.section-title span {
+  color: #e32a2a;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  height: 220px;
+  background-color: #404040;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 20px #000000, 0 0 10px #000000 inset;
+}
+
+.affiliate-img {
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  filter: drop-shadow(0px 0px 8px #000);
+}
+
+.item-container img {
+  width: 100%;
+}
+
+.item-container p {
+  font-family: "Aelten", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .15rem;
+  color: #b7b7b7;
+}
+
+.affiliate-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+  height: 60px;
+  color: white;
+  text-decoration: none;
+  font-family: "The Bold Font", sans-serif;
+  font-size: 30px;
+  transition: all 0.3s ease 0s;
+}
+
+.affiliate-button:hover {
+  background-color: #e32a2a;
+  transition: all 0.3s ease 0s;
+}
+
+.affiliate-button:hover {
+  background-color: #e32a2a;
+  transition: all 0.3s ease 0s;
+}
+
+.sites-section {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.sites-section .section-title {
+  margin-bottom: 60px;
+}
+
+.sites-section .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.casino {
+  padding-bottom: 300px;
+}
+
+.compact {
+  height: 150px;
+}
+
+.compact p {
+  font-size: 12px !important;
+}
+
+.compact .affiliate-button {
+  height: 40px;
+  font-size: 24px;
+}
+
+.anchor#home {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+.anchor#featured {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+.anchor#top {
+  display: block;
+  position: relative;
+  top: 60px;
+  visibility: hidden;
+}
+
+.anchor#csgo {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+.anchor#crypto {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+.anchor#casino {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+.anchor#giveaways {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+.anchor#contact {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+.giveaways-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.giveaways-container>div {
+  margin-bottom: 100px;
+}
+
+.giveaway-image img {
+  height: 250px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: transparent;
+  font-family: "The Bold Font", sans-serif;
+  font-size: 30px;
+  margin-left: 114px;
+  width: 445px;
+  height: 250px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgba(227, 42, 42, 0);
+  transition: all 0.3s ease 0s;
+}
+
+.overlay:hover {
+  color: #fff;
+  background-color: rgba(227, 42, 42, 0.5);
+  transition: all 0.3s ease 0s;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.social-container img {
+  height: 200px;
+}
+
+.social-container a {
+  transition: all 0.3s ease 0s;
+}
+
+.social-container a:hover {
+  filter: brightness(80%);
+  transition: all 0.3s ease 0s;
+}
+
+.footer {
+  font-family: "The Bold Font", sans-serif;
+  font-size: 16px;
+  word-spacing: 0.4em;
+  background-color: #222222;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 140px;
+}
+
+.footer span {
+  color: #E32A2A;
+}
+
+.footer a {
+  color: #E32A2A;
+  text-decoration: none;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  min-height: 140px;
+}
+
+.responsible-gambling {
+  margin-left: -80px;
+  font-size: 30px;
+}
+
+.plus18 {
+  margin-left: 80px;
+  font-size: 80px;
+}
