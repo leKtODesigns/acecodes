@@ -98,6 +98,38 @@
 }
 
 @media (min-width: 576px) {
+  .item-container {
+    margin-bottom: 50px;
+  }
+
+  .featured .item-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .overlay {
+    margin-left: 49px;
+  }
+
+  .social-container img {
+    height: 120px;
+  }
+
+  .footer p {
+    font-size: 0.5em;
+    margin-left: -60px !important;
+  }
+
+  .responsible-gambling {
+    font-size: 0.8em !important;
+    padding-left: 70px !important;
+  }
+
+  .plus18 {
+    margin-left: 0px !important;
+    padding-left: 55px !important;
+    font-size: 3em !important;
+  }
 
   .col-sm,
   .col-sm-1,
@@ -185,6 +217,17 @@
 }
 
 @media (min-width: 768px) {
+  .item-container {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .featured .item-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .nav-title {
     font-size: 40px;
   }
@@ -206,6 +249,14 @@
   .nav-contact-link {
     content: "&#9993;";
     font-size: 24px;
+  }
+
+  .overlay {
+    margin-left: 145px;
+  }
+
+  .social-container img {
+    height: 150px;
   }
 
   .col-md,
@@ -294,6 +345,17 @@
 }
 
 @media (min-width: 992px) {
+  .item-container {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .featured .item-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .nav-title {
     font-size: 3.2vw;
   }
@@ -317,6 +379,14 @@
   .nav-contact-link {
     font-size: 45px;
     margin-bottom: 10px;
+  }
+
+  .overlay {
+    margin-left: 168px;
+  }
+
+  .social-container img {
+    height: 200px;
   }
 
   .col-lg,

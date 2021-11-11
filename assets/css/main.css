@@ -230,7 +230,11 @@ body {
   transition: all 0.3s ease 0s;
 }
 
-.affiliate-button:hover {
+.item-container a {
+  text-decoration: none;
+}
+
+.item-container:hover .affiliate-button {
   background-color: #e32a2a;
   transition: all 0.3s ease 0s;
 }
@@ -327,8 +331,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .giveaways-container>div {
@@ -348,7 +350,6 @@ body {
   color: transparent;
   font-family: "The Bold Font", sans-serif;
   font-size: 30px;
-  margin-left: 114px;
   width: 445px;
   height: 250px;
   border-radius: 20px 20px 20px 20px;
@@ -368,10 +369,6 @@ body {
   align-items: center;
   margin-top: 100px;
   margin-bottom: 150px;
-}
-
-.social-container img {
-  height: 200px;
 }
 
 .social-container a {
